@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: brown;
+}
+    nav ul{
+        box-sizing: border-box;
+        padding: 15px;
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        cursor: pointer;
+        color: black;
+        border-bottom: 2px solid black;
+    }
